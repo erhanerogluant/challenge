@@ -1,4 +1,4 @@
-# Simple CRUD Web Service with Spring Boot
+#CRUD Web Service with Spring Boot
 This is a simple REST web service built in Java using Spring Boot to ingest spreadsheet documents into a database and perform basic CRUD operations on the created records. The web service returns the ingested records as JSON objects.
 
 ### Technology Stack
@@ -10,12 +10,12 @@ This is a simple REST web service built in Java using Spring Boot to ingest spre
 ### Installation
 1. Clone the repository to your local machine using the following command:
 
-' git clone https://github.com/[your-username]/SimpleCRUDWebServiceWithSpringBoot.git'
+' git clone https://github.com/erhanerogluant/challenge.git'
 
 2. Navigate to the cloned repository directory:
 
 ``` 
-cd SimpleCRUDWebServiceWithSpringBoot 
+cd challenge
 ```
 
 3. Build the project using Maven:
@@ -103,10 +103,13 @@ This method takes an ID as an integer and fetches the record from the database w
 * Add the ability to import and parse other types of documents, such as CSV or XML files.
 * Improve error handling and provide more detailed error messages in case of failure.
 * Add security features, such as authentication and authorization, to secure access to the web service.
+* 
 # Conclusion:
+
 In conclusion, the simple CRUD web service with Spring Boot provides a basic framework for managing Employee records by conducting basic CRUD operations on a database. Although the service has some limitations, it provides a foundation for further development and improvements. With the implementation of additional functionality and improvements, the service could be further enhanced to meet the requirements of a more complex use case.
 
 # Deployment:
+
 To deploy the web service, you can follow the steps below:
 
 1. Clone the repository to your local machine.
@@ -114,6 +117,7 @@ To deploy the web service, you can follow the steps below:
 3. Run the command "mvn clean install" to build the project.
 4. Run the command "java -jar target/SimpleCrudService-0.0.1-SNAPSHOT.jar" to start the web service.
 5. Use a tool like Postman to test the API by sending REST requests to the endpoint.
+
 Note: Before deploying the web service, make sure to have Java 8 or higher installed on your machine and that the h2 database is properly configured.
 
 # Contributing
