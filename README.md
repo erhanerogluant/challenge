@@ -53,7 +53,9 @@ Body
 ```
 Response
 '200 OK'
+
 ### POST updateRecord
+
 This method takes a JSON object representing a record in the database and updates the record whose ID matches the id in the JSON object.
 
 Request
@@ -72,18 +74,24 @@ Body
 }
 ```
 Response
+
 '200 OK'
 
 ### POST deleteRecord
+
 Endpoint: /api/employee/{id}
+
 Method: DELETE
+
 This method takes an ID as an integer and deletes the record from the database with the matching ID.
 
 ### GET readRecord
-''' Endpoint: /api/employee/{id}
+
+Endpoint: /api/employee/{id}
+
 Method: GET
+
 This method takes an ID as an integer and fetches the record from the database with the matching ID.
-'''
 
 ### Functionality and Limitations:
 
