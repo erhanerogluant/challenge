@@ -1,4 +1,5 @@
-#CRUD Web Service with Spring Boot
+# challenge
+# CRUD Web Service with Spring Boot
 This is a simple REST web service built in Java using Spring Boot to ingest spreadsheet documents into a database and perform basic CRUD operations on the created records. The web service returns the ingested records as JSON objects.
 
 ### Technology Stack
@@ -29,7 +30,7 @@ mvn clean install
 mvn spring-boot:run'
 ```
 
-# Usage
+### Usage
 The REST API provides 4 methods for basic CRUD functionality for Employee entities:
 
 ### POST createRecord
@@ -84,7 +85,7 @@ Method: GET
 This method takes an ID as an integer and fetches the record from the database with the matching ID.
 '''
 
-# Functionality and Limitations:
+### Functionality and Limitations:
 
 * The API is designed to handle basic CRUD operations on employee records stored in a database. 
 
@@ -96,7 +97,7 @@ This method takes an ID as an integer and fetches the record from the database w
 
 * The API does not handle invalid data in the spreadsheet, such as incorrect column names, missing data, etc.
 
-# Discuss potential improvements:
+### Discuss potential improvements:
 
 * Provide advanced functionality for searching and filtering records.
 * Add support for multiple types of records, such as Customer records or Order records.
@@ -104,11 +105,11 @@ This method takes an ID as an integer and fetches the record from the database w
 * Improve error handling and provide more detailed error messages in case of failure.
 * Add security features, such as authentication and authorization, to secure access to the web service.
 * 
-# Conclusion:
+### Conclusion:
 
 In conclusion, the simple CRUD web service with Spring Boot provides a basic framework for managing Employee records by conducting basic CRUD operations on a database. Although the service has some limitations, it provides a foundation for further development and improvements. With the implementation of additional functionality and improvements, the service could be further enhanced to meet the requirements of a more complex use case.
 
-# Deployment:
+### Deployment:
 
 To deploy the web service, you can follow the steps below:
 
@@ -120,7 +121,7 @@ To deploy the web service, you can follow the steps below:
 
 Note: Before deploying the web service, make sure to have Java 8 or higher installed on your machine and that the h2 database is properly configured.
 
-# Contributing
+### Contributing
 
 Contributions are welcome. Feel free to submit a pull request.
 
